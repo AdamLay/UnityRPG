@@ -1,0 +1,6 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:GroupBox name="HealthGroup" style="flex-direction: row;">
+        <ui:Label tabindex="-1" text="Health" display-tooltip-when-elided="true" name="Health" style="font-size: 20px;" />
+        <ui:Label tabindex="-1" text="10/10" display-tooltip-when-elided="true" name="HealthValue" style="font-size: 20px; -unity-font-style: bold;" />
+    </ui:GroupBox>
+</ui:UXML>
